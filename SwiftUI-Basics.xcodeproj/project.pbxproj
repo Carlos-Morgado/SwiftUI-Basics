@@ -11,6 +11,7 @@
 		C429CF092A4439D300ACFE4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429CF082A4439D300ACFE4B /* ContentView.swift */; };
 		C429CF0B2A4439D400ACFE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C429CF0A2A4439D400ACFE4B /* Assets.xcassets */; };
 		C429CF0E2A4439D400ACFE4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C429CF0D2A4439D400ACFE4B /* Preview Assets.xcassets */; };
+		C4BAABCB2A448F82000F7C78 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BAABCA2A448F82000F7C78 /* ImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		C429CF082A4439D300ACFE4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C429CF0A2A4439D400ACFE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C429CF0D2A4439D400ACFE4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4BAABCA2A448F82000F7C78 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				C429CF062A4439D300ACFE4B /* SwiftUI_BasicsApp.swift */,
 				C429CF082A4439D300ACFE4B /* ContentView.swift */,
+				C4BAABCA2A448F82000F7C78 /* ImageView.swift */,
 				C429CF0A2A4439D400ACFE4B /* Assets.xcassets */,
 				C429CF0C2A4439D400ACFE4B /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4BAABCB2A448F82000F7C78 /* ImageView.swift in Sources */,
 				C429CF092A4439D300ACFE4B /* ContentView.swift in Sources */,
 				C429CF072A4439D300ACFE4B /* SwiftUI_BasicsApp.swift in Sources */,
 			);
