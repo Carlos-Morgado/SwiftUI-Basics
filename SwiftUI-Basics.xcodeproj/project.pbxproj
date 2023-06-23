@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		C41CEDA72A4587DC00094E7B /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CEDA62A4587DC00094E7B /* UIKitView.swift */; };
 		C41CEDA92A458E7500094E7B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CEDA82A458E7500094E7B /* MainView.swift */; };
+		C41CEDAD2A4595C300094E7B /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CEDAC2A4595C300094E7B /* Programmer.swift */; };
+		C41CEDAF2A45966800094E7B /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CEDAE2A45966800094E7B /* RowView.swift */; };
+		C41CEDB12A459AA000094E7B /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CEDB02A459AA000094E7B /* ListView.swift */; };
 		C429CF072A4439D300ACFE4B /* SwiftUI_BasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429CF062A4439D300ACFE4B /* SwiftUI_BasicsApp.swift */; };
 		C429CF092A4439D300ACFE4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429CF082A4439D300ACFE4B /* ContentView.swift */; };
 		C429CF0B2A4439D400ACFE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C429CF0A2A4439D400ACFE4B /* Assets.xcassets */; };
@@ -19,6 +22,9 @@
 /* Begin PBXFileReference section */
 		C41CEDA62A4587DC00094E7B /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
 		C41CEDA82A458E7500094E7B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C41CEDAC2A4595C300094E7B /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
+		C41CEDAE2A45966800094E7B /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		C41CEDB02A459AA000094E7B /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		C429CF032A4439D300ACFE4B /* SwiftUI-Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Basics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C429CF062A4439D300ACFE4B /* SwiftUI_BasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicsApp.swift; sourceTree = "<group>"; };
 		C429CF082A4439D300ACFE4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +44,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C41CEDAA2A45952F00094E7B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C41CEDAC2A4595C300094E7B /* Programmer.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C41CEDAB2A45953900094E7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C41CEDA82A458E7500094E7B /* MainView.swift */,
+				C41CEDA62A4587DC00094E7B /* UIKitView.swift */,
+				C4BAABCA2A448F82000F7C78 /* ImageView.swift */,
+				C429CF082A4439D300ACFE4B /* ContentView.swift */,
+				C41CEDAE2A45966800094E7B /* RowView.swift */,
+				C41CEDB02A459AA000094E7B /* ListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C429CEFA2A4439D300ACFE4B = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +85,8 @@
 			isa = PBXGroup;
 			children = (
 				C429CF062A4439D300ACFE4B /* SwiftUI_BasicsApp.swift */,
-				C429CF082A4439D300ACFE4B /* ContentView.swift */,
-				C4BAABCA2A448F82000F7C78 /* ImageView.swift */,
-				C41CEDA62A4587DC00094E7B /* UIKitView.swift */,
-				C41CEDA82A458E7500094E7B /* MainView.swift */,
+				C41CEDAA2A45952F00094E7B /* Data */,
+				C41CEDAB2A45953900094E7B /* Views */,
 				C429CF0A2A4439D400ACFE4B /* Assets.xcassets */,
 				C429CF0C2A4439D400ACFE4B /* Preview Content */,
 			);
@@ -146,7 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41CEDB12A459AA000094E7B /* ListView.swift in Sources */,
 				C4BAABCB2A448F82000F7C78 /* ImageView.swift in Sources */,
+				C41CEDAD2A4595C300094E7B /* Programmer.swift in Sources */,
+				C41CEDAF2A45966800094E7B /* RowView.swift in Sources */,
 				C429CF092A4439D300ACFE4B /* ContentView.swift in Sources */,
 				C429CF072A4439D300ACFE4B /* SwiftUI_BasicsApp.swift in Sources */,
 				C41CEDA92A458E7500094E7B /* MainView.swift in Sources */,
