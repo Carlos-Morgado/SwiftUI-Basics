@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C41CEDA72A4587DC00094E7B /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CEDA62A4587DC00094E7B /* UIKitView.swift */; };
+		C41CEDA92A458E7500094E7B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CEDA82A458E7500094E7B /* MainView.swift */; };
 		C429CF072A4439D300ACFE4B /* SwiftUI_BasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429CF062A4439D300ACFE4B /* SwiftUI_BasicsApp.swift */; };
 		C429CF092A4439D300ACFE4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429CF082A4439D300ACFE4B /* ContentView.swift */; };
 		C429CF0B2A4439D400ACFE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C429CF0A2A4439D400ACFE4B /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		C41CEDA62A4587DC00094E7B /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
+		C41CEDA82A458E7500094E7B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C429CF032A4439D300ACFE4B /* SwiftUI-Basics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Basics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C429CF062A4439D300ACFE4B /* SwiftUI_BasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicsApp.swift; sourceTree = "<group>"; };
 		C429CF082A4439D300ACFE4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				C429CF082A4439D300ACFE4B /* ContentView.swift */,
 				C4BAABCA2A448F82000F7C78 /* ImageView.swift */,
 				C41CEDA62A4587DC00094E7B /* UIKitView.swift */,
+				C41CEDA82A458E7500094E7B /* MainView.swift */,
 				C429CF0A2A4439D400ACFE4B /* Assets.xcassets */,
 				C429CF0C2A4439D400ACFE4B /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 				C4BAABCB2A448F82000F7C78 /* ImageView.swift in Sources */,
 				C429CF092A4439D300ACFE4B /* ContentView.swift in Sources */,
 				C429CF072A4439D300ACFE4B /* SwiftUI_BasicsApp.swift in Sources */,
+				C41CEDA92A458E7500094E7B /* MainView.swift in Sources */,
 				C41CEDA72A4587DC00094E7B /* UIKitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
