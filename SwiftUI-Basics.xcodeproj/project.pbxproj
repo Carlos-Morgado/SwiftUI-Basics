@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40EC9A42A4ABAA5008E7FE2 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40EC9A32A4ABAA5008E7FE2 /* ListDetailView.swift */; };
 		C41CEDA72A4587DC00094E7B /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CEDA62A4587DC00094E7B /* UIKitView.swift */; };
 		C41CEDA92A458E7500094E7B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CEDA82A458E7500094E7B /* MainView.swift */; };
 		C41CEDAD2A4595C300094E7B /* Programmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41CEDAC2A4595C300094E7B /* Programmer.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C40EC9A32A4ABAA5008E7FE2 /* ListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
 		C41CEDA62A4587DC00094E7B /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
 		C41CEDA82A458E7500094E7B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C41CEDAC2A4595C300094E7B /* Programmer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmer.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				C429CF082A4439D300ACFE4B /* ContentView.swift */,
 				C41CEDAE2A45966800094E7B /* RowView.swift */,
 				C41CEDB02A459AA000094E7B /* ListView.swift */,
+				C40EC9A32A4ABAA5008E7FE2 /* ListDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				C41CEDAF2A45966800094E7B /* RowView.swift in Sources */,
 				C429CF092A4439D300ACFE4B /* ContentView.swift in Sources */,
 				C429CF072A4439D300ACFE4B /* SwiftUI_BasicsApp.swift in Sources */,
+				C40EC9A42A4ABAA5008E7FE2 /* ListDetailView.swift in Sources */,
 				C41CEDA92A458E7500094E7B /* MainView.swift in Sources */,
 				C41CEDA72A4587DC00094E7B /* UIKitView.swift in Sources */,
 			);
@@ -316,7 +320,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -350,7 +354,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

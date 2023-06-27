@@ -15,6 +15,7 @@ struct RowView: View {
                 .avatar
                 .resizable()
                 .frame(width: 40, height: 40)
+                .clipShape(Circle())
                 .padding(10)
             VStack(alignment: .leading) {
                 Text(programmerRow.name)
