@@ -29,7 +29,7 @@ struct ListDetailView: View {
     
     struct ListDetailView_Previews: PreviewProvider {
         static var previews: some View {
-            ListDetailView(detailProgrammer: Programmer(id: 14, name: "Carlos Morgado", languages: "Swift", avatar: Image(systemName: "person.fill")))
+            ListDetailView(detailProgrammer: Programmer(id: 14, name: "Carlos Morgado", languages: "Swift", avatar: Image(systemName: "person.fill"), favorite: true))
         }
     }
 }

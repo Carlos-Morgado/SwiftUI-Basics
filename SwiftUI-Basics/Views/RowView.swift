@@ -26,13 +26,19 @@ struct RowView: View {
                     .font(.subheadline)
             }
             Spacer()
+            
+            if programmerRow.favorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
+            
         }
     }
 }
 
 struct RowView_Previews: PreviewProvider {
     static var previews: some View {
-        RowView(programmerRow: Programmer(id: 14, name: "Carlos Morgado", languages: "Swift", avatar: Image(systemName: "person.fill")))
+        RowView(programmerRow: Programmer(id: 14, name: "Carlos Morgado", languages: "Swift", avatar: Image(systemName: "person.fill"), favorite: false))
             .previewLayout(.fixed(width: 400, height: 60))
     }
 }
